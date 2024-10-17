@@ -1,11 +1,17 @@
+// App.tsx
+import React from 'react';
+import HomePage from './Homepage'; // Adjust path if necessary
 
-
-function App() {
-  const [count, setCount] = useState(0)
+const App: React.FC = () => {
+  const handleButtonClick = () => {
+    alert('Video creation process started!'); // Replace this with your video conversion logic
+  };
 
   return (
-   
-  )
-}
+    <div>
+      <HomePage onClick={handleButtonClick} />
+    </div>
+  );
+};
 
-export default App
+export default App;
