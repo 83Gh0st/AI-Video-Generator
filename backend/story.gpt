@@ -1,4 +1,4 @@
-tools: sys.wite, sys.read, sys.download, sys.find
+tools: sys.write, sys.read, sys.download, sys.find
 tools: github.com/gptscript-ai/browser
 args: url: Link to the article or page
 args: dir: Directory to save the created files to 
